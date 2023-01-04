@@ -74,3 +74,13 @@ function fadeIn(el, display) {
         }
     })();
 };
+
+function copiarAlPortapapeles(id_elemento) {
+    var aux = document.createElement("input");
+    aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand("copy");
+    document.body.removeChild(aux);
+    alert("Mi número de teléfono fue copiado en tu portapapeles!\nEnvíame un mensaje :D")
+}

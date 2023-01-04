@@ -11440,7 +11440,7 @@ html {
 
 footer.footer {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 footer.footer .social-link {
   display: block;
@@ -11458,6 +11458,19 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
+footer.footer .social-linkMail {
+  display: block;
+  text-decoration: none;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+footer.footer .social-linkMail:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
 .map {
   height: 30rem;
 }
@@ -11530,7 +11543,7 @@ footer.footer .social-link:hover {
   font-weight: 300;
   font-size: 1.2rem;
 }
-@media (min-width: 992px) {
+
   .portfolio-item {
     max-width: none;
     margin: 0;
@@ -11560,11 +11573,11 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(30, 24, 47, 0.9);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
-}
+
 
 .service-icon {
   background-color: #fff;
@@ -11574,13 +11587,12 @@ footer.footer .social-link:hover {
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.3);
 }
 
 /* DOWNLOAD BUTTON */
 
 .ov-btn-slide-close {
-  border: 2px solid #1d809f;
   padding: 16px 20px;
   border-radius: 6px;
   position: relative;
@@ -11596,7 +11608,7 @@ footer.footer .social-link:hover {
   height: 100%;
   top: 0;
   left: -50%;
-  background-color: #0d1932;
+  background-color: #094355;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -11614,8 +11626,6 @@ footer.footer .social-link:hover {
   left: 50%;
 }
 
-/* perfil */
-
 .perfil{
   height: 400px;
   width: 400px;
@@ -11624,4 +11634,18 @@ footer.footer .social-link:hover {
 
 header h3{
   color: #cfcfcf;
+}
+
+footer{
+  background-color: #0d2b39;
+}
+#telefono{
+  font-size: 0;
+}
+
+footer li button{
+  border: none;
+}
+.sombras{
+  text-shadow: -5px 4px 7px rgba(83,81,81,0.89);
 }
